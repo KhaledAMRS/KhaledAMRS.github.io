@@ -9,6 +9,7 @@
 
 }
 
+
 header{
     background-color: #f0f0f0;
     width: 100%;
@@ -18,5 +19,38 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px;
-    
+
+}
+
+.logo
+{
+    text-decoration: none;
+    color: #3a6cf4;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.middle{
+    width: 100%;
+    min-height: 400vh;
+    display: flex;
 }
